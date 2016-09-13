@@ -14,4 +14,13 @@ $(function() {
   $('.submit').on('click', function() {
     $('input').addClass('error');
   })
+
+  $('input[name*="user"]').on('click', function() {
+    $('input[name*="user"]').removeClass('error');
+  })
+
+  $('input[name*="pass"]').on('click', function() {
+    $('input[name*="pass"]').removeClass('error');
+  })
+
 })
