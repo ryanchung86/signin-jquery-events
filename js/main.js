@@ -5,3 +5,11 @@ $(function() {
     })
   })
 })
+
+$(function() {
+  $('.close').on('click', function() {
+    $('.modal').fadeOut('slow', function() {
+      $('.modal').css('display', 'none');
+    })
+  })
+})
